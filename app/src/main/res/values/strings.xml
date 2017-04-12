@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Last Minute One Question Quiz</string>
+    <string name="app_name">Last Minute Quiz</string>
+    <string name="name_text" translatable="false">Enter your name: </string>
+    <string name="name_hint">Name</string>
+
+    <string name="question1_header" translatable="false">Question 1</string>
+    <string name="question1_description" translatable="false">What is the name of the main character?</string>
+    <string name="question1_answer1" translatable="false">Tintin</string>
+    <string name="question1_answer2" translatable="false">Asterix</string>
+    <string name="question1_answer3" translatable="false">Lucky Luke</string>
+
+    <string name="question2_header" translatable="false">Question 2</string>
+    <string name="question2_description" translatable="false">What is the name of the dog?</string>
+    <string name="question2_answer1" translatable="false">Lassie</string>
+    <string name="question2_answer2" translatable="false">Scooby Doo</string>
+    <string name="question2_answer3" translatable="false">Snowy</string>
+
+    <string name="question_header3" translatable="false">Question 3</string>
+    <string name="question_description3" translatable="false">Which other character(s) are in the picture?</string>
+
+    <string name="question_header4" translatable="false">Question 4</string>
+    <string name="question_description4" translatable="false">Who was the director of the Holywood movie of TinTin?</string>
+
+
+
 </resources>

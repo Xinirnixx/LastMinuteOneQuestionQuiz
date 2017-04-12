@@ -8,4 +8,32 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="BasicText">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="QuestionHeader">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="QuestionDescription">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+
 </resources>
