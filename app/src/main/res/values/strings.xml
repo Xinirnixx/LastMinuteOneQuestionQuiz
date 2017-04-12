@@ -3,6 +3,8 @@
     <string name="name_text" translatable="false">Enter your name: </string>
     <string name="name_hint">Name</string>
 
+    <string name="image_description">Kuifje</string>
+
     <string name="question1_header" translatable="false">Question 1</string>
     <string name="question1_description" translatable="false">What is the name of the main character?</string>
     <string name="question1_answer1" translatable="false">Tintin</string>
@@ -15,12 +17,22 @@
     <string name="question2_answer2" translatable="false">Scooby Doo</string>
     <string name="question2_answer3" translatable="false">Snowy</string>
 
-    <string name="question_header3" translatable="false">Question 3</string>
-    <string name="question_description3" translatable="false">Which other character(s) are in the picture?</string>
+    <string name="question3_header" translatable="false">Question 3</string>
+    <string name="question3_description" translatable="false">Which other character(s) are in the picture?</string>
+    <string name="question3_answer1" translatable="false">Captain Haddock</string>
+    <string name="question3_answer2" translatable="false">Gargamel</string>
+    <string name="question3_answer3" translatable="false">Bianca Castafiore</string>
+    <string name="question3_answer4" translatable="false">Obelix</string>
+    <string name="question3_answer5" translatable="false">Popeye</string>
+    <string name="question3_answer6" translatable="false">Thompson</string>
+    <string name="question3_answer7" translatable="false">Thomson</string>
+    <string name="question3_answer8" translatable="false">Professor Calculus</string>
 
-    <string name="question_header4" translatable="false">Question 4</string>
-    <string name="question_description4" translatable="false">Who was the director of the Holywood movie of TinTin?</string>
+    <string name="question4_header" translatable="false">Question 4</string>
+    <string name="question4_description" translatable="false">Who was the director of the Holywood movie of TinTin?</string>
+    <string name="question4_answer1" translatable="false">Quentin Tarantino</string>
+    <string name="question4_answer2" translatable="false">Steven Spielberg</string>
+    <string name="question4_answer3" translatable="false">Tim Burton</string>
 
-
-
+    <string name="button_text" translatable="false">Check Answers</string>
 </resources>

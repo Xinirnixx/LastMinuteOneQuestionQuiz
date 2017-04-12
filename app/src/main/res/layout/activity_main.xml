@@ -3,14 +3,14 @@
 xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-android:layout_height="match_parent"
 android:layout_width="match_parent"
+    android:layout_height="match_parent"
 tools:context="com.example.klaas.lastminuteonequestionquiz.MainActivity">
 
 
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <LinearLayout
@@ -41,6 +41,7 @@ tools:context="com.example.klaas.lastminuteonequestionquiz.MainActivity">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:contentDescription="@string/image_description"
         app:srcCompat="@drawable/tintin_cast" />
 
     <TextView
@@ -127,80 +128,80 @@ tools:context="com.example.klaas.lastminuteonequestionquiz.MainActivity">
     </RadioGroup>
 
     <TextView
-        android:id="@+id/question_header3"
+        android:id="@+id/question3_header"
         style="@style/QuestionHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_header3" />
+        android:text="@string/question3_header" />
 
     <TextView
-        android:id="@+id/question_description3"
+        android:id="@+id/question3_description"
         style="@style/QuestionDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_description3" />
+        android:text="@string/question3_description" />
 
     <CheckBox
         android:id="@+id/checkBox1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Captain Haddock" />
+        android:text="@string/question3_answer1" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gargamel" />
+        android:text="@string/question4_answer2" />
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bianca Castafiore" />
+        android:text="@string/question4_answer3" />
 
     <CheckBox
         android:id="@+id/checkBox4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Obelix" />
+        android:text="@string/question3_answer4" />
 
     <CheckBox
         android:id="@+id/checkBox5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Popeye" />
+        android:text="@string/question3_answer5" />
 
     <CheckBox
         android:id="@+id/checkBox6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Thompson" />
+        android:text="@string/question3_answer6" />
 
     <CheckBox
         android:id="@+id/checkBox7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Thomson" />
+        android:text="@string/question3_answer7" />
 
     <CheckBox
         android:id="@+id/checkBox8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Professor Calculus" />
+        android:text="@string/question3_answer8" />
 
     <TextView
         android:id="@+id/question_header4"
         style="@style/QuestionHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_header4" />
+        android:text="@string/question4_header" />
 
     <TextView
         android:id="@+id/question_description4"
         style="@style/QuestionDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_description4" />
+        android:text="@string/question4_description" />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -212,32 +213,29 @@ tools:context="com.example.klaas.lastminuteonequestionquiz.MainActivity">
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Quentin Tarantino" />
+            android:text="@string/question4_answer1" />
 
         <RadioButton
             android:id="@+id/radioButton8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Steven Spielberg" />
+            android:text="@string/question4_answer2" />
 
         <RadioButton
             android:id="@+id/radioButton9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Tim Burton" />
+            android:text="@string/question4_answer3" />
+    </RadioGroup>
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Check Answers" />
-
-    </RadioGroup>
-
-
+            android:text="@string/button_text" />
 
 </LinearLayout>
 
